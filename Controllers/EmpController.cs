@@ -9,6 +9,11 @@ namespace GitExercise.Controllers
 {
     public class EmpController : Controller
     {
+        public ActionResult Index()
+        {
+            
+            return View();
+        }
         // GET: Emp
         public ActionResult Display()
         {
